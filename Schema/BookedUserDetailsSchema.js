@@ -12,5 +12,6 @@ const userDetails = new mongoose.Schema({
 })
 
 
+
 const UserDetails = mongoose.model("user details who booked hall",userDetails)
 export default UserDetails
